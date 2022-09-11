@@ -1,0 +1,12 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-business-area-reads/SAP_API_Caller/caller.go#L60",
+	"function": "sap-api-integrations-business-area-reads/SAP_API_Caller.(*SAPAPICaller).BusinessArea",
+	"level": "INFO",
+	"message": [
+		{
+			"BusinessArea": "0001",
+			"to_Text": "http://XXX.XX.XX.XXX:8080/sap/opu/odata/sap/API_BUSINESSAREA_SRV/A_BusinessArea('0001')/to_Text"
+		}
+	],
+	"time": "2022-09-12T00:16:34+09:00"
+}

@@ -1,0 +1,13 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-business-area-reads/SAP_API_Caller/caller.go#L109",
+	"function": "sap-api-integrations-business-area-reads/SAP_API_Caller.(*SAPAPICaller).Text",
+	"level": "INFO",
+	"message": [
+		{
+			"BusinessArea": "0001",
+			"Language": "EN",
+			"BusinessAreaName": "Business area 0001"
+		}
+	],
+	"time": "2022-09-12T00:19:04+09:00"
+}

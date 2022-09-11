@@ -1,0 +1,23 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-business-area-reads/SAP_API_Caller/caller.go#L67",
+	"function": "sap-api-integrations-business-area-reads/SAP_API_Caller.(*SAPAPICaller).BusinessArea",
+	"level": "INFO",
+	"message": [
+		{
+			"BusinessArea": "0001",
+			"Language": "EN",
+			"BusinessAreaName": "Business area 0001"
+		},
+		{
+			"BusinessArea": "0001",
+			"Language": "DE",
+			"BusinessAreaName": "Geschäftsbereich 0001"
+		},
+		{
+			"BusinessArea": "0001",
+			"Language": "JA",
+			"BusinessAreaName": "事業領域 0001"
+		}
+	],
+	"time": "2022-09-12T00:16:35+09:00"
+}
