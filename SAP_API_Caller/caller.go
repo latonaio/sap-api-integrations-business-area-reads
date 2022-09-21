@@ -55,16 +55,17 @@ func (c *SAPAPICaller) BusinessArea(businessArea string) {
 	businessAreaData, err := c.callBusinessAreaSrvAPIRequirementBusinessArea("A_BusinessArea", businessArea)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(businessAreaData)
 	}
-	c.log.Info(businessAreaData)
 
 	textData, err := c.callToText(businessAreaData[0].ToText)
 	if err != nil {
 		c.log.Error(err)
-		return
+	} else {
+		c.log.Info(textData)
 	}
-	c.log.Info(textData)
+	return
 }
 
 func (c *SAPAPICaller) callBusinessAreaSrvAPIRequirementBusinessArea(api, businessArea string) ([]sap_api_output_formatter.BusinessArea, error) {
